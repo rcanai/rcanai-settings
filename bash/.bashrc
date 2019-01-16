@@ -1,9 +1,9 @@
 # bash settings
 
-# alias
+# alias (mac)
 
-alias ll="ls -la"
-
+alias ls="ls -FG"
+alias ll="ls -alFG"
 
 # git
 
