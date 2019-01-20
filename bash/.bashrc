@@ -5,6 +5,10 @@
 alias ls="ls -FG"
 alias ll="ls -alFG"
 
+# docker 
+
+alias dcf="docker-compose -f ./dockerfiles/docker-compose.yml"
+
 # git
 
 ## git-completion,git-promptの読込
