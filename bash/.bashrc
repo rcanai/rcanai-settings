@@ -7,7 +7,7 @@ alias ll="ls -alFG"
 
 # docker 
 
-alias dcf="docker-compose -f ./dockerfiles/docker-compose.yml"
+alias dcf="docker-compose -f dockerfiles/docker-compose.yml --project-directory ./dockerfiles"
 
 # git
 
