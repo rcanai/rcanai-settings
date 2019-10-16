@@ -3,7 +3,8 @@
 
 ## git setting 
 
-GitをHomebrewでインストールする必要あがある
+GitをHomebrewでインストールする必要がある。
+
 ```
 $ brew install git
 $ git --version # appleとでなければOK
