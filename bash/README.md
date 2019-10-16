@@ -1,13 +1,21 @@
 # bash
 
 
-## git setting 
+## 事前準備
 
 GitをHomebrewでインストールする必要がある。
 
 ```
+# Gitをインストール
 $ brew install git
 $ git --version # appleとでなければOK
+```
+
+## 設定手順
+
+```
+# このディレクトリに移動
+$ cd bash
 ```
 
 ```
@@ -15,5 +23,13 @@ $ git --version # appleとでなければOK
 $ cp ./git-completion.bash /usr/local/etc/bash_completion.d/git-completion.bash
 $ cp ./git-prompt.sh /usr/local/etc/bash_completion.d/git-prompt.sh
 ```
+
+```
+# bashファイルを上書き
+$ cp .bash_profile ~/.bash_profile 
+$ cp .bashrc ~/.bashrc 
+$ source ~/.bashrc
+```
+
 
 
