@@ -1,0 +1,109 @@
+{
+	// 拡張機能のおすすめを非表示
+	"extensions.ignoreRecommendations": true,
+	// ファイルが開かれていないときのヒントを非表示
+	"workbench.tips.enabled": false,
+	// プレビュータブの機能をFALSE
+	"workbench.editor.enablePreview": false,
+	// アクティビティバーの表示をTRUE
+	"workbench.activityBar.visible": true,
+	// ステータスバーを表示をTRUE
+	"workbench.statusBar.visible": true,
+	// サイドバーを左側に表示
+	"workbench.sideBar.location": "left",
+	// 既定の文字コード
+	"files.encoding": "utf8",
+	// 既定の改行文字
+	"files.eol": "\n",
+	// フォントファミリー
+	"editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+	// フォントサイズ
+	"editor.fontSize": 16,
+	// タブサイズ
+	"editor.tabSize": 2,
+	// タブキーでスペース入力をFALSE
+	"editor.insertSpaces": false,
+	// ファイルに基いてインデント、タブを変更する
+	// （tabSizeとinsertSpacesの設定は無効になる）
+	"editor.detectIndentation": true,
+	// ウィンドウの端で改行する
+	"editor.wordWrap": "on",
+	// 制御文字を表示をする
+	"editor.renderControlCharacters": true,
+	// 自動で閉じ文字、タグ、記号を挿入をFALSE
+	"editor.autoClosingBrackets": "never",
+	"editor.autoClosingQuotes": "never",
+	// 折りたたみ機能をTRUE
+	"editor.folding": true,
+	// カーソル点滅
+	"editor.cursorBlinking": "smooth",
+	// 現在行のハイライト方法
+	"editor.renderLineHighlight": "gutter",
+	// エディターの末尾でスクロールを止める
+	"editor.scrollBeyondLastLine": false,
+	// 文字の区切り（初期値 => "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?"）
+	"editor.wordSeparators": "`~!#%^&*()-=+[{]}\\|;:'\",.<>/?",
+	// スクロール量
+	"editor.mouseWheelScrollSensitivity": 3,
+	// ミニマップの表示をTRUE
+	"editor.minimap.enabled": true,
+	// ブレークポイントを使用しない
+	"editor.glyphMargin": false,
+	// 複数箇所を選択するキーをCtrlに変更
+	"editor.multiCursorModifier": "ctrlCmd",
+	// Ctrlキーとホイールで縮小拡大を行わない
+	"editor.mouseWheelZoom": false,
+	// URLをクリック不可能にする
+	"editor.links": false,
+	// 自動で保存しない
+	"files.autoSave": "off",
+	// HTML 1 行あたりの最大文字数 (0 = 無効にする)
+	"html.format.wrapLineLength": 0,
+	// Windows拡大率
+	"window.zoomLevel": 0,
+	// 起動時に前回開いていたワークスペースを開く
+	"window.restoreWindows": "one",
+	// 起動時ページを空白のページにする
+	"workbench.startupEditor": "newUntitledFile",
+	// Emmetをタブで発動する
+	"emmet.triggerExpansionOnTab": true,
+	// 常にEmmetを表示する
+	"emmet.showExpandedAbbreviation": "always",
+	// Emmetの候補を表示する
+	"emmet.showAbbreviationSuggestions": true,
+	// Emmetを発動しないファイル
+	"emmet.excludeLanguages": [
+			"markdown",
+			"json"
+	],
+	"files.associations": {
+			"*.vue": "vue"
+	},
+	// ESLintが監視する拡張子
+	"eslint.options": {
+			"extensions": [".js", ".vue"]
+	},
+	// ESLintの設定
+	"eslint.validate": [
+			"javascript",
+			{
+					"language": "vue",
+					"autoFix": true
+			}
+	],
+	"workbench.colorTheme": "Monokai",
+	"git.autorefresh": false,
+	"git.autoRepositoryDetection": false,
+	"gitlens.advanced.messages": {
+			"suppressGitDisabledWarning": true
+	},
+	"eslint.packageManager": "yarn",
+	"liveshare.autoShareServers": false,
+	"liveshare.autoShareTerminals": false,
+	"breadcrumbs.enabled": true,
+	"workbench.editor.enablePreviewFromQuickOpen": false,
+	"extensions.autoCheckUpdates": false,
+	"javascript.updateImportsOnFileMove.enabled": "never",
+	"liveshare.featureSet": "insiders",
+	"eslint.autoFixOnSave": true
+}
