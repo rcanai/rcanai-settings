@@ -8,9 +8,6 @@ alias ..1="cd ../"
 alias ..2="cd ../../"
 alias ..3="cd ../../../"
 
-# docker 
-alias dcf="docker-compose -f dockerfiles/docker-compose.yml --project-directory ./dockerfiles"
-
 ## git-completion,git-promptの読込
 source /usr/local/etc/bash_completion.d/git-prompt.sh
 source /usr/local/etc/bash_completion.d/git-completion.bash
