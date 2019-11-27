@@ -8,6 +8,10 @@ alias ..1="cd ../"
 alias ..2="cd ../../"
 alias ..3="cd ../../../"
 
+# Docker
+alias dk="docker"
+alias dp="docker-compose"
+
 ## git-completion,git-promptの読込
 source /usr/local/etc/bash_completion.d/git-prompt.sh
 source /usr/local/etc/bash_completion.d/git-completion.bash
