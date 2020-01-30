@@ -16,6 +16,9 @@ alias dp="docker-compose"
 alias vscode="open -a open -a /Applications/Visual\ Studio\ Code.app"
 alias androidstudio="open -a /Applications/Android\ Studio.app"
 
+# direnv
+eval "$(direnv hook bash)"
+
 ## git-completion,git-promptの読込
 source /usr/local/etc/bash_completion.d/git-prompt.sh
 source /usr/local/etc/bash_completion.d/git-completion.bash
