@@ -10,7 +10,7 @@ alias ..3="cd ../../../"
 
 # Docker
 alias dk="docker"
-alias dp="docker-compose"
+alias dcom="docker-compose"
  
 # Editor / IDE
 alias vscode="open -a open -a /Applications/Visual\ Studio\ Code.app"
@@ -31,7 +31,7 @@ GIT_PS1_SHOWSTASHSTATE=1
 GIT_PS1_SHOWUNTRACKEDFILES=1
 
 ## 環境変数PS1の変更
-export PS1='\[\033[1;32m\]\u\[\033[00m\]:\[\033[1;34m\]\W\[\033[1;31m\]$(__git_ps1)\[\033[00m\] \$ '
+export PS1='\[\033[1;32m\]\u\[\033[00m\]@local:\[\033[1;34m\]\W\[\033[1;31m\]$(__git_ps1)\[\033[00m\] \$ '
 
 ## 環境PATH
 
