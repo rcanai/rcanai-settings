@@ -9,6 +9,7 @@ alias ..2="cd ../../"
 alias ..3="cd ../../../"
 
 # Docker
+alias dcf="docker-compose -f dockerfiles/docker-compose.yml --project-directory ./dockerfiles"
 alias dk="docker"
 alias dcom="docker-compose"
  
@@ -16,7 +17,7 @@ alias dcom="docker-compose"
 alias vscode="open -a open -a /Applications/Visual\ Studio\ Code.app"
 alias androidstudio="open -a /Applications/Android\ Studio.app"
 
-# direnv
+# direnv install -> $ brew install direnv
 eval "$(direnv hook bash)"
 
 ## git-completion,git-promptの読込
