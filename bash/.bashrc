@@ -12,6 +12,9 @@ alias ..3="cd ../../../"
 alias dcf="docker-compose -f dockerfiles/docker-compose.yml --project-directory ./dockerfiles"
 alias dk="docker"
 alias dcom="docker-compose"
+
+# Yarn 
+alias yr="yarn run dev"
  
 # Editor / IDE
 alias vscode="open -a open -a /Applications/Visual\ Studio\ Code.app"
