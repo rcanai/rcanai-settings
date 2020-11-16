@@ -40,9 +40,7 @@ export PS1='\[\033[1;32m\]\u\[\033[00m\]@local:\[\033[1;34m\]\W\[\033[1;31m\]$(_
 ## 環境PATH
 
 ### nodebrew
-# export PATH="~/.rbenv/shims:/usr/local/bin:$PATH"
-# eval "$(rbenv init -)"
-# export PATH=$HOME/.nodebrew/current/bin:$PATH
+export PATH=$HOME/.nodebrew/current/bin:$PATH
 
 ### flutter
 # export PATH="$PATH:$HOME/Works/flutter/bin"
