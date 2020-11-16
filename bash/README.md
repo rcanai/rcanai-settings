@@ -31,5 +31,15 @@ $ cp .bashrc ~/.bashrc
 $ source ~/.bashrc
 ```
 
+## Yarnをインストールする
+
+エラー回避方法
+
+```
+$ brew install icu4c;
+$ mkdir /usr/local/opt/node; # シンボリックリンク用
+$ ln -s ~/.nodebrew/current/ /usr/local/opt/node/;
+$ brew install yarn --ignore-dependencies;
+```
 
 
